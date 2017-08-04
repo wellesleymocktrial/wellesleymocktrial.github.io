@@ -16,7 +16,7 @@ p {
     font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	color: #030054;
-	margin-bottom: 1%;
+	margin-bottom: 1.5%;
 }
 
 .welcome-container {
@@ -38,9 +38,22 @@ p {
     font-family: 'EB Garamond', serif;
 }
 
-#welcome-large {
-    text-decoration: bold;
+#welcome-s {
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
 }
+
+#welcome-m {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+#welcome-l {
+    text-decoration: bold;
+    font-size: xx-large;
+}
+
+
 
 .welcome-btn {
     background-color: #ffffff !important;
@@ -62,6 +75,18 @@ p {
 
 #home-img {
     background-image: url('../images/wellesley-bw.png');
+    position: relative;
+    width: 100%;
+}
+
+#team1-img {
+    background-image: url('../images/sun-bw.png');
+    position: relative;
+    width: 100%;
+}
+
+#team2-img {
+    background-image: url('../images/moxie-crimefighter-bw.png');
     position: relative;
     width: 100%;
 }
