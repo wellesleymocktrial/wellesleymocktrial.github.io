@@ -7,8 +7,3 @@ $(".welcome-container").on('click',
         $(".welcome-container").fadeOut(500);;
         
     });
-
-(function(){ 
-    var cw = $('.bio-container').width();
-    $('.bio-container').css({'height':cw+'px'}); 
-})();
